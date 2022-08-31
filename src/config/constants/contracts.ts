@@ -1,6 +1,14 @@
 import { multicallAddresses } from '@pancakeswap/multicall'
 
 export default {
+  floorBidding: {
+    97: '0xcABb5aE71383bc42ff642C323D94dB88eFd24D3C',
+    56: '',
+  },
+  wallet: {
+    97: '0x5023cCbF8572E2970c166277757061f5f04D8acC',
+    56: '',
+  },
   masterChef: {
     97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
     56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
