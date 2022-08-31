@@ -15,7 +15,7 @@ import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
 import CakePrice from "../CakePrice/CakePrice";
-import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
+import { LogoWithTextIcon, ArrowForwardIcon, WinTnieLogoWithTextIcon } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
 
@@ -66,7 +66,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             </StyledList>
           ))}
           <Box display={["none", null, "block"]}>
-            <LogoWithTextIcon isDark width="160px" />
+            <WinTnieLogoWithTextIcon isDark width="160px" />
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
