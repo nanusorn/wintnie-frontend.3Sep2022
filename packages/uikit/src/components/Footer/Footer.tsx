@@ -33,9 +33,9 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
   return (
     <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
-        <StyledIconMobileContainer display={["block", null, "none"]}>
-          <LogoWithTextIcon isDark width="130px" />
-        </StyledIconMobileContainer>
+        {/* <StyledIconMobileContainer display={["block", null, "none"]}> */}
+        {/*   <LogoWithTextIcon isDark width="130px" /> */}
+        {/* </StyledIconMobileContainer> */}
         <Flex
           order={[2, null, 1]}
           flexDirection={["column", null, "row"]}
@@ -85,20 +85,20 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
               dropdownPosition="top-right"
             />
           </Flex>
-          <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-            <Box mr="20px">
-              <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
-            </Box>
-            <Button
-              as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
-              target="_blank"
-              scale="sm"
-              endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
-            >
-              {buyCakeLabel}
-            </Button>
-          </Flex>
+          {/* <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center"> */}
+          {/* <Box mr="20px"> */}
+          {/*   <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} /> */}
+          {/* </Box> */}
+          {/* <Button */}
+          {/*   as="a" */}
+          {/*   href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56" */}
+          {/*   target="_blank" */}
+          {/*   scale="sm" */}
+          {/*   endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />} */}
+          {/* > */}
+          {/*   {buyCakeLabel} */}
+          {/* </Button> */}
+          {/* </Flex> */}
         </StyledToolsContainer>
       </Flex>
     </StyledFooter>
