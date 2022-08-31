@@ -1,6 +1,6 @@
-# 🥞 Pancake Frontend
+# 🐨 WinTnie
 
-This project contains the main features of the pancake application.
+This project contains the main features of the winTnie application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
